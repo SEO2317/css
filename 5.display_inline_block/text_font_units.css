@@ -1,0 +1,59 @@
+
+html {
+    font-size: 32em;
+}
+
+/*General*/
+table, td, th {
+    text-align: center;
+    border-spacing: 10px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding : 10px;
+}
+
+.brower-color{
+    color:red;
+}
+
+.google-hex{
+    color:red;
+    font-family: 'Oswald', sans-serif;
+}
+
+.google-rgb{
+    color:rgb(0, 255, 0);
+    font-family: 'Fuzzy Bubbles', sans-serif;
+}
+
+
+.google-rgba{
+    color:rgba(0,0,255,0.4);
+    font-family: 'RaleWay', sans-serif;
+}
+
+.px-parent{
+    /*font sizev-chrome default 기본 폰트 사이즈 존재*/
+    font-size: 32px;
+}
+
+.px-child{
+    font-size: 16px;
+}
+
+.em-parent {
+    font-size: 3em;
+}
+
+
+.rem-parent {
+    font-size: 3rem;
+}
+
+.rem-child {
+    font: 0.5rem;
+}

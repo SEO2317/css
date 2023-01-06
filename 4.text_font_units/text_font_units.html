@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="text_font_units.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Oswald&family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>`
+<body>
+    <h1>CSS Text /  Font-family / Units</h1>
+
+    <h2>Text/fFont-family</h2>
+    <table>
+        <tr><!--table Row-->
+            <th>Text</th><!--table Head-->
+            <th>Color</th>
+            <th>Font-family</th>
+        </tr>
+        <tr class="brower-color"><!--table Row-->
+            <td>브라우저 기본 폰트 텍스트</td>
+            <td>red</td>
+            <td>Brower default</td>
+        </tr>
+        <tr>
+            <td>Google Web Font 텍스트</td>
+            <td>#a52a2a</td>
+            <td>oswald</td>
+        </tr>
+        <tr class="google-rgb"><!--table Row-->
+            <td>Google Web Font 텍스트</td>
+            <td>RGB(0,255,0)</td>
+            <td>Fuzzy Bubbies</td>
+        </tr>
+        <tr class="google-rgba"><!--table Row-->
+            <td>Google Web Font 텍스트</td>
+            <td>RGB(0,0,255,0.4)</td>
+            <td>Raleway</td>
+        </tr>
+    </table>
+
+    <hr>
+    <div class="px-parent">
+        px-parent text
+        <!-- .px-child -->
+        <div class="px-child">
+            px-child text
+        </div>
+    </div>
+    <br><hr>
+    <!-- em: (Relative to parent element) %와 동일한 단위 -->
+    <div class="em-parent">
+        em-parent text
+        <div class="em-child">em-child text</div>
+    </div>
+    <br><hr>
+    <!-- rem: (Relative to root element) root에 지정된 폰트 사이즈의 크기에 따라 지정 -->
+    <div class="rem-parent">
+        rem-parent text
+        <div class="rem-child">
+            rem-child text
+        </div>
+    </div>
+</body>
+</html>

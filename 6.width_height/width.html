@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="width.css">
+</head>
+<body>
+   <h1>CSS width</h1>
+   <h2>Default Width of block / inline element</h2>
+   <div style="border : 2px dashed orange">div는 block element이기 때문에 기본적으로 default width 100%값을 가지고 있음</div>
+    <br>
+    <span style="border : 2px dashed brown">
+        span은 inline element이기 때문에 자신의 영역 크기만큼의 width가 지정되어 있음(auto)
+    </span>
+
+    <br>
+    <div class="width-px">
+        <h2>width with px(pixel) units</h2>
+        <div style="border : 2px dashed orange">px이 적용된 block element</div>
+    </div>
+    <br>
+
+    <div class="width-pct"></div>
+    <h2>width with % units</h2>
+    <div style="border: 2px dashed orange">%가 적용된 block  element</div>
+    <div style="border: 2px dashed brown">%가 적용된 inline  element</div>
+</body>
+</html>

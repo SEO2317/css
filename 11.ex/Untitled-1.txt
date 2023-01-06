@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>https://papago.naver.com/</title>
+        <link rel="stylesheet" href="ex.css" />
+	</head>
+	<body>
+        <div>
+            <nav>
+                <ul>
+                    <img width="123" height="34"  src="https://papago.naver.com/97ec80a681e94540414daf2fb855ba3b.svg" alt="papago"/>
+                    <li><a href="https://papago.naver.net/website?locale=ko">웹사이트번역</a></li>
+                    <li><a href="https://papago.naver.com/docs/">문서번역</a></li>
+                    <li><a href="https://papago.naver.com/gym/home">GYM</a></li>
+                    <li><a href="https://dict.naver.com/">사전</a></li>
+                </ul>
+            </nav>
+        </div>
+        <br>
+
+        <!-- <div tabindex="-1">
+            <div id="language_sense"></div>
+        </div> -->
+        <div class="language_select"> 
+            <div class="language_btn">
+                <input type="button" id="language" value="언어감지"/>
+            </div>
+            <div class="switch_btn">
+                <input type="button" id="switch" value="=>"/>
+            </div>
+            <div>
+                <textarea placeholder="번역할 내용을 입력하세요"></textarea>
+            </div>
+        </div>
+        
+
+	</body>
+</html>
+내코드-->

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="ex.css">;
+</head>
+  <body>	
+		<div class="wrapper"> 
+			<nav>
+	<ul>
+		<img width="123" height="34"  src="https://papago.naver.com/97ec80a681e94540414daf2fb855ba3b.svg" alt="papago"/>
+		<li><a href="https://papago.naver.net/website?locale=ko">웹사이트번역</a></li>
+		<li><a href="https://papago.naver.com/docs/">문서번역</a></li>
+		<li><a href="https://papago.naver.com/gym/home">GYM</a></li>
+		<li><a href="https://dict.naver.com/">사전</a></li>
+	</ul>
+</nav>
+</div>
+    
+         <br>
+         
+            <div class="language_select"> 
+                     <!-- <div class="language_btn">
+                         <input type="button" id="language" value="언어감지"/>
+                     </div> -->
+                     <select class="form-select" aria-label="Default select example">
+                        <option selected>select menu</option>
+                        <option value="1" selected>한국어</option>
+                        <option value="2">영어</option>
+                        <option value="3">러시아어</option>
+                        <option value="4">독일어</option>
+                        <option value="5">불어</option>
+                        <option value="6">중국어</option>
+                      </select>
+                     <div class="switch_btn">
+                         <input type="button" id="switch" value="=>"/>
+                     </div>
+                     <div class="tran_area">
+                         <textarea placeholder="번역할 내용을 입력하세요"></textarea>
+                         <div class="count"><span>0</span>/200</div>
+                     </div>
+                    <!-- <button style="width:30%;background-color: coral;cursor: pointer;border:0.1px solid black;">발음듣기</button>
+                    <button style="width:30%;background-color:brown;cursor: pointer;border:0.1px solid black;">복사하기</button>
+                    
+                    <button style="width:20%;background-color:brown;cursor: pointer;border:0.1px solid black;">번역하기</button> -->
+                 </div>
+                 <div style="position:absolute;width: 100px; height:30px; bottom:0px; text-align: center; display:flex;">
+                    <!-- <button style="width:100%;background-color: coral;cursor: pointer;border:0.5px solid black;">발음듣기</button>
+                    <button style="width:100%;background-color:brown;cursor: pointer;border:0.5px solid black;">복사하기</button> -->
+                 </div>
+
+				 <div class="language_select"> 
+					<!-- <div class="language_btn">
+						<input type="button" id="language" value="언어감지"/>
+					</div> -->
+					<div><select class="form-select" aria-label="Default select example" onchange="">
+					   <option selected>select menu</option>
+					   <option value="1">한국어</option>
+					   <option value="2">영어</option>
+					   <option value="3">러시아어</option>
+					   <option value="4">독일어</option>
+					   <option value="5">불어</option>
+					   <option value="6">중국어</option>
+					 </select></div>
+					<div class="trans">ddddd</div>
+				
+						<!-- <div class="btn_style"> 
+							<button style="width:10%;background-color: coral;cursor: pointer;border: 0.05em solid black;">발음듣기</button>
+							<button style="width:10%;background-color:brown;cursor: pointer;border:0.1px solid black;">복사하기</button>
+							<button style="width:10%;background-color:brown;cursor: pointer;border:0.1px solid black;">즐겨찾기</button></div>
+							<button style="width:10%;background-color:brown;cursor: pointer;border:0.1px solid black;">번역하기</button></div>
+					</div> -->
+				</div>
+            
+            </div>
+  
+  <!-- footer (이종수) -->
+	<div id = "middle_foot">
+    <form action="" method="post" class="translate_url">
+			<label for="url">웹사이트 번역</label>
+			<div>
+				<input type="text" name="url" id="url" placeholder="URL을 입력하세요.">
+				<select name="langs" id="langs">
+					<option value="한국어">한국어</option>
+					<option value="영어">영어</option>
+					<option value="일본어">일본어</option>
+					<option value="중국어(간체)">중국어(간체)</option>
+					<option value="중국어(번체)">중국어(번체)</option>
+				</select>
+			</div>
+				<button type="submit">→</button>
+		</form>
+	</div>
+		<footer>
+			<div class="banner">
+				<div class="ad">
+					<div class="slide">
+						<a href="">
+							<span style="background-color: cornflowerblue; border-radius: 50%; height: 20px; width: 30px;">new</span> [Web] 문서만 올리면 번역 끝! 파파고 문서번역 서비스를 시작합니다!
+						</a>
+					</div>
+					<div class="links">
+						<a href="https://www.facebook.com/NaverPapago/">
+							<img src="https://papago.naver.com/84091cc03d731a16e6a1dcec1b7cca94.png" alt="페이스북 로고">
+						</a>
+						<a href="http://blog.naver.com/nv_papago">
+							<img src="https://papago.naver.com/af6ffd01aa75859e6b23db02cd8ea6a9.png" alt="네이버 블로그 로고">
+						</a>
+					</div>
+				</div>
+				<div class="app">
+					<div class="app_down" >
+						<a href="#">
+							<img style="height: 100%; object-fit: cover;" src="https://papago.naver.com/e3bff6deb50f078fe094f764fac152e8.png" alt="">
+							<span>APP Download</span>
+						</a>
+					</div>
+					<select name="" id="" style="">
+						<option value="">한국어</option>
+						<option value="">English</option>
+						<option value="">日本語</option>
+						<option value="">中文(簡體)</option>
+						<option value="">中文(繁體)</option>
+					</select>
+				</div>
+			</div>
+			<div class="footer_block">
+				<ul class="footer_menus">
+					<li><a href="">이용약관</a></li>
+					<li><a href="">개인정보처리방침</a></li>
+					<li><a href="">책임의 한계와 법적고지</a></li>
+					<li><a href="">고객센터</a></li>
+					<li><a href="">의견제안</a></li>
+					<li><a href="">준수사항</a></li>
+					<li><a href="">품질개선동의</a></li>
+					<li><a href="">단축키<span style="border: 1px solid black; width: 20px; height: 20px; border-radius: 10px;">?</span></a></li>
+					<li><a href="">제휴API이용문의</a></li>
+				</ul>
+				<div id="naver_logo">
+					<a href="https://www.navercorp.com/ko">ⓒ NAVER Corp.</a>
+				</div>
+			</div>
+		</footer>
+         </body>
+         </html>

@@ -1,0 +1,20 @@
+.disney {/*상속되었기 때문에 disney캐릭터들이 동일한 스타일이 적용됨*/
+    color:firebrick;
+}
+
+p{/*<em>내부에 강조된 텍스트도 상속되어야하는데 되지 않음 */
+    border:dashed;
+}
+
+h3{
+    color:green;
+}
+
+#sidebar{
+    color:blue;
+}
+
+
+#sidebar h3{ /*#sidebar라는 id 태그  */
+    color:inherit;
+}

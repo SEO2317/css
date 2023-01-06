@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline_internal_external</title>
+
+    <style>
+        .internal{
+            color:orange;
+            font-size : 40px;
+        }    
+    </style>
+</head>
+<!--3.External style : 별도의 css파일로 -->
+<link rel="stylesheet" href="inline_internal_external.css">;
+<body>
+    <h1>CSS 스타일 적용 방식(CSS Stylling)</h1>
+    <hr>
+    
+    <!---inline-->
+    <p style="color:teal; font-size: 30px;">Inline Style로 적용된 CSS</p>
+    <p class="internal">Internal Style로 적용된 CSS</p>
+    <p class="External">External Style로 적용된 CSS</p>
+</body>
+</html>

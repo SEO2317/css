@@ -1,0 +1,45 @@
+.boxes {
+    position: relative;
+    background: honeydew;
+    border:1px solid hotpink;
+    /* margin: 100px 0; */
+    /* margin-top : 100px; */
+    /* margin : 100px 0 100px 0; /*12시부터 시계방향(상->우->하->좌)*/
+    /* height :100px;  */
+    margin-top:100px;
+
+}
+
+.box {
+    width: 100px;
+    background: cornflowerblue;
+    height:100px;
+    box-sizing: content-box;
+    border: 3px dashed tomato;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+#box1 {
+    position: static; /*position이라는 property의 default value: static*/
+
+}
+
+#box2 {
+    background: palegreen;
+    position: absolute; /*앞으로 온 상태*/
+
+    top: 20px;
+    left: 20px;
+
+}
+
+#box4 {
+    background: tomato;
+
+
+    position: fixed;
+
+    top:20px;
+    left:40px;
+}
